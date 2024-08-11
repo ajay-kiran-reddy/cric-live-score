@@ -31,7 +31,7 @@ const Commentary = () => {
       <Loader show={isLoading} />
       {commentary?.commentaryList?.map((com: any, i: number) => {
         return (
-          <Grid key={i} container spacing={2}>
+          <Grid key={i} container spacing={0}>
             {com?.overSeparator && (
               <Grid
                 item
@@ -110,7 +110,7 @@ const Commentary = () => {
                 </Grid>
               </Grid>
             )}
-            <Grid item xs={2}>
+            <Grid item xs={2} style={{ paddingLeft: "1rem" }}>
               <Badge
                 color={getBadgeThemeByEvent(com.event)}
                 badgeContent={com.overNumber}
