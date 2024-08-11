@@ -67,12 +67,7 @@ const PlayerInfo = () => {
         </Grid>
         <Grid item xs={12}></Grid>
 
-        <Grid
-          item
-          xs={12}
-          md={4}
-          style={{ padding: "5px", backgroundColor: "lightgrey" }}
-        >
+        <Grid item xs={12} md={4} style={{ backgroundColor: "lightgrey" }}>
           <Typography variant="body1">Personal Information</Typography>
 
           <Grid container>

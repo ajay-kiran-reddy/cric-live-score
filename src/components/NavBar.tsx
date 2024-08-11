@@ -15,7 +15,7 @@ const NavBar = () => {
               fontSize: isMobileView() ? "3rem" : "5rem",
               cursor: "pointer",
             }}
-            onClick={() => navigate("/cricket")}
+            onClick={() => navigate("/")}
             color="primary"
           />
         </IconButton>
